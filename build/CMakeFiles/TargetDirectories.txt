@@ -1,0 +1,3 @@
+C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/01-window-01-draw.dir
+C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/ALL_BUILD.dir
+C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/ZERO_CHECK.dir
