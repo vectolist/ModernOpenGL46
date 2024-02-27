@@ -215,9 +215,6 @@ GLExtension_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 GLExtension_SOURCE_DIR:STATIC=C:/@GitRepos/@vectolist/ModernOpenGL46/external/GLExtension
 
-//The directory containing a CMake configuration file for GLM.
-GLM_DIR:PATH=E:/Archive0002/graphics-api-samples-master/build/external/glm
-
 //Value Computed by CMake
 ModernGL_BINARY_DIR:STATIC=C:/@GitRepos/@vectolist/ModernOpenGL46/build
 

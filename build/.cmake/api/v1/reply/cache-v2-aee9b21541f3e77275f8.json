@@ -1126,18 +1126,6 @@
 			"value" : "C:/@GitRepos/@vectolist/ModernOpenGL46/external/GLExtension"
 		},
 		{
-			"name" : "GLM_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "The directory containing a CMake configuration file for GLM."
-				}
-			],
-			"type" : "PATH",
-			"value" : "E:/Archive0002/graphics-api-samples-master/build/external/glm"
-		},
-		{
 			"name" : "ModernGL_BINARY_DIR",
 			"properties" : 
 			[

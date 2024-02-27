@@ -12,6 +12,8 @@ set(CMAKE_CXX_EXTENSIONS ON)
 set(CMAKE_INCLUDE_DIRECTORIES_BEFORE ON)
 set(CMAKE_SUPPRESS_REGENERATION true)
 
+set(CMAKE_CXX_FLAGS_INIT STRING "-DUNICODE" "-D_MBCS")
+
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/modules/")
 
 set(TITLES
@@ -63,6 +65,7 @@ foreach(TITLE ${TITLES})
         target_include_directories(${NAME} PUBLIC 
         ${CMAKE_SOURCE_DIR}/external/GLExtension/include
         ${CMAKE_SOURCE_DIR}/external/GLExtension)
+        target_compile_definitions(${NAME} PUBLIC _MBSC)
         set_target_properties(${NAME} PROPERTIES
             RUNTIME_OUTPUT_DIRECTORY ${BIN_DIR}/${EXAM}
             RUNTIME_OUTPUT_DIRECTORY_DEBUG ${BIN_DIR}/${EXAM}

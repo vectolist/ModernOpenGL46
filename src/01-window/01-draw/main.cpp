@@ -1,6 +1,7 @@
+#undef _UNICODE
+#undef UNICODE
 #include <iostream>
 #include <GLExtension.h>
-//#include <GL/wglew.h>
 
 #include <windows.h>
 
@@ -21,7 +22,7 @@ int main(int args, char* argv[]){
 	wndclass.hCursor = LoadCursor(NULL, IDC_ARROW);
 	wndclass.hbrBackground = (HBRUSH)(COLOR_BTNFACE + 1);
 	wndclass.lpszMenuName = 0;
-	wndclass.lpszClassName = "Wnd++";
+	wndclass.lpszClassName = TEXT("Wnd++");
 
 	RegisterClassEx(&wndclass);
     
@@ -51,11 +52,26 @@ int main(int args, char* argv[]){
 	// https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-createwindowexa
 	HWND hwnd = CreateWindowEx(0, wndclass.lpszClassName, wndclass.lpszClassName, style, windowRect.left, windowRect.top, windowRect.right - windowRect.left,
 		windowRect.bottom - windowRect.top, NULL, NULL, wndclass.hInstance, 0);
-	HDC hdc = GetDC(hwnd);
-
 	
 
+	HGLRC rc = GL::CreateGLContext(hwnd);
+	HDC dc = GetDC(hwnd);
 
+	ShowWindow(hwnd, TRUE);
+	MSG msg{};
+	while (msg.message != WM_QUIT)
+	{	
+		if(PeekMessage(&msg, 0, 0, 0, PM_REMOVE)){
+			TranslateMessage(&msg);
+			DispatchMessage(&msg);
+
+			
+		}
+		
+	}
+	
+	GL::ReleaseContext(hwnd, rc, dc);
+	DestroyWindow(hwnd);
 
     return 0;
 };
