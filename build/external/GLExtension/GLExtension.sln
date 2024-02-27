@@ -5,16 +5,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "C
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{6A6DC1F6-8512-3FFF-85E7-9E287F645A48}"
 	ProjectSection(ProjectDependencies) = postProject
-		{748BFEE8-D743-342E-852D-022F3908B3F6} = {748BFEE8-D743-342E-852D-022F3908B3F6}
 		{D0601718-BFF0-30F3-84FA-53064CF52799} = {D0601718-BFF0-30F3-84FA-53064CF52799}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-window-01-draw", "01-window-01-draw.vcxproj", "{748BFEE8-D743-342E-852D-022F3908B3F6}"
-	ProjectSection(ProjectDependencies) = postProject
-		{D0601718-BFF0-30F3-84FA-53064CF52799} = {D0601718-BFF0-30F3-84FA-53064CF52799}
-	EndProjectSection
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLExtension", "external\GLExtension\GLExtension.vcxproj", "{D0601718-BFF0-30F3-84FA-53064CF52799}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLExtension", "GLExtension.vcxproj", "{D0601718-BFF0-30F3-84FA-53064CF52799}"
 	ProjectSection(ProjectDependencies) = postProject
 	EndProjectSection
 EndProject
@@ -30,14 +24,6 @@ Global
 		{6A6DC1F6-8512-3FFF-85E7-9E287F645A48}.Release|x64.ActiveCfg = Release|x64
 		{6A6DC1F6-8512-3FFF-85E7-9E287F645A48}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
 		{6A6DC1F6-8512-3FFF-85E7-9E287F645A48}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.Debug|x64.ActiveCfg = Debug|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.Debug|x64.Build.0 = Debug|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.Release|x64.ActiveCfg = Release|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.Release|x64.Build.0 = Release|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
-		{748BFEE8-D743-342E-852D-022F3908B3F6}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
 		{D0601718-BFF0-30F3-84FA-53064CF52799}.Debug|x64.ActiveCfg = Debug|x64
 		{D0601718-BFF0-30F3-84FA-53064CF52799}.Debug|x64.Build.0 = Debug|x64
 		{D0601718-BFF0-30F3-84FA-53064CF52799}.Release|x64.ActiveCfg = Release|x64
@@ -51,7 +37,7 @@ Global
 		{6A6DC1F6-8512-3FFF-85E7-9E287F645A48} = {724697D5-38DE-31FF-BC15-7E522739D28F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {31BD9A96-2F9C-3156-BB1C-B57FD9FD3134}
+		SolutionGuid = {DC211CF1-776A-38CE-8AD4-CC27BF471AE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityAddIns) = postSolution
 	EndGlobalSection

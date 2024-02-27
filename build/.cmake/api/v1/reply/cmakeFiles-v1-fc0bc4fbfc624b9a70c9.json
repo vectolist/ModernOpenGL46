@@ -142,6 +142,9 @@
 		},
 		{
 			"path" : "root.h.in"
+		},
+		{
+			"path" : "external/GLExtension/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -2,19 +2,20 @@
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="C:\@GitRepos\@vectolist\ModernOpenGL46\src\01-window\01-draw\main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>01-window</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\@GitRepos\@vectolist\ModernOpenGL46\CMakeLists.txt" />
+    <None Include="C:\@GitRepos\@vectolist\ModernOpenGL46\src\01-window\01-draw\simple_ps.glsl">
+      <Filter>01-window</Filter>
+    </None>
+    <None Include="C:\@GitRepos\@vectolist\ModernOpenGL46\src\01-window\01-draw\simple_vs.glsl">
+      <Filter>01-window</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\@GitRepos\@vectolist\ModernOpenGL46\src\01-window\01-draw\dd.glsl" />
-    <None Include="C:\@GitRepos\@vectolist\ModernOpenGL46\src\01-window\01-draw\defualt.glsl" />
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{F0A1A0EA-CF77-35F3-94B8-5C0F095B2ABA}</UniqueIdentifier>
+    <Filter Include="01-window">
+      <UniqueIdentifier>{01F78AA8-A6B2-3B56-AF05-7738E62D8A95}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
