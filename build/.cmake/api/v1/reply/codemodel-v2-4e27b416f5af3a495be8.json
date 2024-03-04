@@ -1,0 +1,604 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "external/GLExtension",
+					"jsonFile" : "directory-external.GLExtension-Debug-67b8f3c5de69b854e782.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/GLExtension",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "external/Common",
+					"jsonFile" : "directory-external.Common-Debug-2c18f626680934bfe297.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external/Common",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "ModernGL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GLExtension",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-01-Application::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-01-Application-Debug-f155bea23d5068f64ce4.json",
+					"name" : "01-window-01-Application",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-02-Triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-02-Triangle-Debug-2e7ff9114173a96cba83.json",
+					"name" : "01-window-02-Triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-03-Shader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-03-Shader-Debug-4ab5f8df8d1e545e2ba6.json",
+					"name" : "01-window-03-Shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-d261b4af0d894c8f80f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-ALL_BUILD-Debug-877671a3fcbc5427bc75.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Common::@d2ccae2f03624d861fdf",
+					"jsonFile" : "target-Common-Debug-33dcfaa9ae07611ef974.json",
+					"name" : "Common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GLExtension::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-GLExtension-Debug-63d9b0d864b6d42ca414.json",
+					"name" : "GLExtension",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "external/GLExtension",
+					"jsonFile" : "directory-external.GLExtension-Release-67b8f3c5de69b854e782.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/GLExtension",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "external/Common",
+					"jsonFile" : "directory-external.Common-Release-2c18f626680934bfe297.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external/Common",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "ModernGL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GLExtension",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-01-Application::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-01-Application-Release-e252ebd984b41fec37a2.json",
+					"name" : "01-window-01-Application",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-02-Triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-02-Triangle-Release-e6f7d7a57bec7dfcb806.json",
+					"name" : "01-window-02-Triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-03-Shader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-03-Shader-Release-78ae5d4051f3926f5e8f.json",
+					"name" : "01-window-03-Shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-d261b4af0d894c8f80f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-ALL_BUILD-Release-877671a3fcbc5427bc75.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Common::@d2ccae2f03624d861fdf",
+					"jsonFile" : "target-Common-Release-2deec5ddae32ec67047a.json",
+					"name" : "Common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GLExtension::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-GLExtension-Release-7b0f5887b52e932c72f9.json",
+					"name" : "GLExtension",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "external/GLExtension",
+					"jsonFile" : "directory-external.GLExtension-MinSizeRel-67b8f3c5de69b854e782.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/GLExtension",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "external/Common",
+					"jsonFile" : "directory-external.Common-MinSizeRel-2c18f626680934bfe297.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external/Common",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "ModernGL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GLExtension",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-01-Application::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-01-Application-MinSizeRel-e603dc0fe23949747921.json",
+					"name" : "01-window-01-Application",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-02-Triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-02-Triangle-MinSizeRel-d2ccab2786537174ddef.json",
+					"name" : "01-window-02-Triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-03-Shader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-03-Shader-MinSizeRel-fba1ce5e4df2b9a56449.json",
+					"name" : "01-window-03-Shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-d261b4af0d894c8f80f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-877671a3fcbc5427bc75.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Common::@d2ccae2f03624d861fdf",
+					"jsonFile" : "target-Common-MinSizeRel-0f83bcfe77da827b19b3.json",
+					"name" : "Common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GLExtension::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-GLExtension-MinSizeRel-8e3e07f7c75dd54e836e.json",
+					"name" : "GLExtension",
+					"projectIndex" : 1
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "external/GLExtension",
+					"jsonFile" : "directory-external.GLExtension-RelWithDebInfo-67b8f3c5de69b854e782.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/GLExtension",
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				},
+				{
+					"build" : "external/Common",
+					"jsonFile" : "directory-external.Common-RelWithDebInfo-2c18f626680934bfe297.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "external/Common",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						2
+					],
+					"name" : "ModernGL",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "GLExtension",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-01-Application::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-01-Application-RelWithDebInfo-3a51dbfb6bf1d3560593.json",
+					"name" : "01-window-01-Application",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-02-Triangle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-02-Triangle-RelWithDebInfo-17f0d415eb1e73188b62.json",
+					"name" : "01-window-02-Triangle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-window-03-Shader::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-window-03-Shader-RelWithDebInfo-4bf4aab814a6e4867755.json",
+					"name" : "01-window-03-Shader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-d261b4af0d894c8f80f4.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-877671a3fcbc5427bc75.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Common::@d2ccae2f03624d861fdf",
+					"jsonFile" : "target-Common-RelWithDebInfo-6fe899126f281de91f8b.json",
+					"name" : "Common",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "GLExtension::@334e36cec9fe3c0d6b96",
+					"jsonFile" : "target-GLExtension-RelWithDebInfo-bc8a2ded741a248dcfc9.json",
+					"name" : "GLExtension",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/@GitRepos/@vectolist/ModernOpenGL46/build",
+		"source" : "C:/@GitRepos/@vectolist/ModernOpenGL46"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

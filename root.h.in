@@ -1,1 +1,0 @@
-const char* root = "${CMAKE_SOURCE_DIR}";

@@ -1,4 +1,7 @@
-C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/01-window-01-draw.dir
+C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/01-window-01-Application.dir
+C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/01-window-02-Triangle.dir
+C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/01-window-03-Shader.dir
 C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/ALL_BUILD.dir
 C:/@GitRepos/@vectolist/ModernOpenGL46/build/external/GLExtension/CMakeFiles/GLExtension.dir
 C:/@GitRepos/@vectolist/ModernOpenGL46/build/external/GLExtension/CMakeFiles/ALL_BUILD.dir
+C:/@GitRepos/@vectolist/ModernOpenGL46/build/external/Common/CMakeFiles/Common.dir

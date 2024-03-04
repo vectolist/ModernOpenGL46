@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\@GitRepos\@vectolist\ModernOpenGL46\src\01-window\02-Triangle\02-GL-Triangle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{D4FA6646-64F7-3826-935A-6C528B2EEC67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 7:16:50
+      빌드 시작: 2024-03-02 오후 7:02:35
       
       1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -51,7 +51,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.46
+      경과 시간: 00:00:00.49
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -77,7 +77,7 @@ events:
       The output was:
       0
       MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 7:16:50
+      빌드 시작: 2024-03-02 오후 7:02:36
       
       1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
       PrepareForBuild:
@@ -104,7 +104,7 @@ events:
           경고 0개
           오류 0개
       
-      경과 시간: 00:00:00.35
+      경과 시간: 00:00:00.39
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -123,8 +123,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-pz4hbs"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-pz4hbs"
+      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-8b760l"
+      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-8b760l"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -132,38 +132,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-pz4hbs'
+        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-8b760l'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1a0de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_12b02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 7:16:51
+        빌드 시작: 2024-03-02 오후 7:02:36
         
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pz4hbs\\cmTC_1a0de.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8b760l\\cmTC_12b02.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_1a0de.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pz4hbs\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_1a0de.dir\\Debug\\cmTC_1a0de.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_12b02.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8b760l\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_12b02.dir\\Debug\\cmTC_12b02.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_1a0de.dir\\Debug\\cmTC_1a0de.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_12b02.dir\\Debug\\cmTC_12b02.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a0de.dir\\Debug\\\\" /Fd"cmTC_1a0de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12b02.dir\\Debug\\\\" /Fd"cmTC_12b02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
           CMakeCCompilerABI.c
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1a0de.dir\\Debug\\\\" /Fd"cmTC_1a0de.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12b02.dir\\Debug\\\\" /Fd"cmTC_12b02.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pz4hbs\\Debug\\cmTC_1a0de.exe" /INCREMENTAL /ILK:"cmTC_1a0de.dir\\Debug\\cmTC_1a0de.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-pz4hbs/Debug/cmTC_1a0de.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-pz4hbs/Debug/cmTC_1a0de.lib" /MACHINE:X64  /machine:x64 cmTC_1a0de.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_1a0de.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pz4hbs\\Debug\\cmTC_1a0de.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8b760l\\Debug\\cmTC_12b02.exe" /INCREMENTAL /ILK:"cmTC_12b02.dir\\Debug\\cmTC_12b02.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-8b760l/Debug/cmTC_12b02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-8b760l/Debug/cmTC_12b02.lib" /MACHINE:X64  /machine:x64 cmTC_12b02.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_12b02.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8b760l\\Debug\\cmTC_12b02.exe
         FinalizeBuildStatus:
-          "cmTC_1a0de.dir\\Debug\\cmTC_1a0de.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_1a0de.dir\\Debug\\cmTC_1a0de.tlog\\cmTC_1a0de.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pz4hbs\\cmTC_1a0de.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_12b02.dir\\Debug\\cmTC_12b02.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_12b02.dir\\Debug\\cmTC_12b02.tlog\\cmTC_12b02.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8b760l\\cmTC_12b02.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.34
+        경과 시간: 00:00:00.41
         
       exitCode: 0
   -
@@ -175,8 +175,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-kmympt"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-kmympt"
+      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-ffbl6a"
+      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-ffbl6a"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -184,701 +184,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-kmympt'
+        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-ffbl6a'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_810aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b83c2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 7:16:51
+        빌드 시작: 2024-03-02 오후 7:02:37
         
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmympt\\cmTC_810aa.vcxproj" 프로젝트(기본 대상)입니다.
+        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffbl6a\\cmTC_b83c2.vcxproj" 프로젝트(기본 대상)입니다.
         PrepareForBuild:
-          "cmTC_810aa.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmympt\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_810aa.dir\\Debug\\cmTC_810aa.tlog\\" 디렉터리를 만들고 있습니다.
+          "cmTC_b83c2.dir\\Debug\\" 디렉터리를 만들고 있습니다.
+          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffbl6a\\Debug\\" 디렉터리를 만들고 있습니다.
+          "cmTC_b83c2.dir\\Debug\\cmTC_b83c2.tlog\\" 디렉터리를 만들고 있습니다.
         InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_810aa.dir\\Debug\\cmTC_810aa.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
+          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b83c2.dir\\Debug\\cmTC_b83c2.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_810aa.dir\\Debug\\\\" /Fd"cmTC_810aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b83c2.dir\\Debug\\\\" /Fd"cmTC_b83c2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
           CMakeCXXCompilerABI.cpp
           Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_810aa.dir\\Debug\\\\" /Fd"cmTC_810aa.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b83c2.dir\\Debug\\\\" /Fd"cmTC_b83c2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmympt\\Debug\\cmTC_810aa.exe" /INCREMENTAL /ILK:"cmTC_810aa.dir\\Debug\\cmTC_810aa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-kmympt/Debug/cmTC_810aa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-kmympt/Debug/cmTC_810aa.lib" /MACHINE:X64  /machine:x64 cmTC_810aa.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_810aa.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmympt\\Debug\\cmTC_810aa.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffbl6a\\Debug\\cmTC_b83c2.exe" /INCREMENTAL /ILK:"cmTC_b83c2.dir\\Debug\\cmTC_b83c2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-ffbl6a/Debug/cmTC_b83c2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-ffbl6a/Debug/cmTC_b83c2.lib" /MACHINE:X64  /machine:x64 cmTC_b83c2.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b83c2.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffbl6a\\Debug\\cmTC_b83c2.exe
         FinalizeBuildStatus:
-          "cmTC_810aa.dir\\Debug\\cmTC_810aa.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_810aa.dir\\Debug\\cmTC_810aa.tlog\\cmTC_810aa.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kmympt\\cmTC_810aa.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+          "cmTC_b83c2.dir\\Debug\\cmTC_b83c2.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+          "cmTC_b83c2.dir\\Debug\\cmTC_b83c2.tlog\\cmTC_b83c2.lastbuildstate"에 연결(touching)하고 있습니다.
+        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ffbl6a\\cmTC_b83c2.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
         
         빌드했습니다.
             경고 0개
             오류 0개
         
-        경과 시간: 00:00:00.35
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      The system is: Windows - 10.0.19045 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 11:52:36
-      
-      1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
-      PrepareForBuild:
-        "Debug\\" 디렉터리를 만들고 있습니다.
-        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
-      InitializeBuildStatus:
-        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-      
-      빌드했습니다.
-          경고 0개
-          오류 0개
-      
-      경과 시간: 00:00:00.48
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 11:52:37
-      
-      1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
-      PrepareForBuild:
-        "Debug\\" 디렉터리를 만들고 있습니다.
-        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
-      InitializeBuildStatus:
-        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-      
-      빌드했습니다.
-          경고 0개
-          오류 0개
-      
-      경과 시간: 00:00:00.38
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-t4tuuh"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-t4tuuh"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-t4tuuh'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_16ae1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 11:52:37
-        
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4tuuh\\cmTC_16ae1.vcxproj" 프로젝트(기본 대상)입니다.
-        PrepareForBuild:
-          "cmTC_16ae1.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4tuuh\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_16ae1.dir\\Debug\\cmTC_16ae1.tlog\\" 디렉터리를 만들고 있습니다.
-        InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_16ae1.dir\\Debug\\cmTC_16ae1.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16ae1.dir\\Debug\\\\" /Fd"cmTC_16ae1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
-          CMakeCCompilerABI.c
-          Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16ae1.dir\\Debug\\\\" /Fd"cmTC_16ae1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4tuuh\\Debug\\cmTC_16ae1.exe" /INCREMENTAL /ILK:"cmTC_16ae1.dir\\Debug\\cmTC_16ae1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-t4tuuh/Debug/cmTC_16ae1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-t4tuuh/Debug/cmTC_16ae1.lib" /MACHINE:X64  /machine:x64 cmTC_16ae1.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_16ae1.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4tuuh\\Debug\\cmTC_16ae1.exe
-        FinalizeBuildStatus:
-          "cmTC_16ae1.dir\\Debug\\cmTC_16ae1.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_16ae1.dir\\Debug\\cmTC_16ae1.tlog\\cmTC_16ae1.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t4tuuh\\cmTC_16ae1.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-        
-        빌드했습니다.
-            경고 0개
-            오류 0개
-        
-        경과 시간: 00:00:00.35
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-0unmom"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-0unmom"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-0unmom'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6d690.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 11:52:38
-        
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0unmom\\cmTC_6d690.vcxproj" 프로젝트(기본 대상)입니다.
-        PrepareForBuild:
-          "cmTC_6d690.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0unmom\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_6d690.dir\\Debug\\cmTC_6d690.tlog\\" 디렉터리를 만들고 있습니다.
-        InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_6d690.dir\\Debug\\cmTC_6d690.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d690.dir\\Debug\\\\" /Fd"cmTC_6d690.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
-          CMakeCXXCompilerABI.cpp
-          Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_6d690.dir\\Debug\\\\" /Fd"cmTC_6d690.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0unmom\\Debug\\cmTC_6d690.exe" /INCREMENTAL /ILK:"cmTC_6d690.dir\\Debug\\cmTC_6d690.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-0unmom/Debug/cmTC_6d690.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-0unmom/Debug/cmTC_6d690.lib" /MACHINE:X64  /machine:x64 cmTC_6d690.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_6d690.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0unmom\\Debug\\cmTC_6d690.exe
-        FinalizeBuildStatus:
-          "cmTC_6d690.dir\\Debug\\cmTC_6d690.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_6d690.dir\\Debug\\cmTC_6d690.tlog\\cmTC_6d690.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0unmom\\cmTC_6d690.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-        
-        빌드했습니다.
-            경고 0개
-            오류 0개
-        
-        경과 시간: 00:00:00.34
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      The system is: Windows - 10.0.19045 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 11:53:28
-      
-      1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
-      PrepareForBuild:
-        "Debug\\" 디렉터리를 만들고 있습니다.
-        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
-      InitializeBuildStatus:
-        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-      
-      빌드했습니다.
-          경고 0개
-          오류 0개
-      
-      경과 시간: 00:00:00.48
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 11:53:29
-      
-      1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
-      PrepareForBuild:
-        "Debug\\" 디렉터리를 만들고 있습니다.
-        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
-      InitializeBuildStatus:
-        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-      
-      빌드했습니다.
-          경고 0개
-          오류 0개
-      
-      경과 시간: 00:00:00.35
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-a8nrth"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-a8nrth"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-a8nrth'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d6401.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 11:53:29
-        
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nrth\\cmTC_d6401.vcxproj" 프로젝트(기본 대상)입니다.
-        PrepareForBuild:
-          "cmTC_d6401.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nrth\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_d6401.dir\\Debug\\cmTC_d6401.tlog\\" 디렉터리를 만들고 있습니다.
-        InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_d6401.dir\\Debug\\cmTC_d6401.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6401.dir\\Debug\\\\" /Fd"cmTC_d6401.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
-          CMakeCCompilerABI.c
-          Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d6401.dir\\Debug\\\\" /Fd"cmTC_d6401.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nrth\\Debug\\cmTC_d6401.exe" /INCREMENTAL /ILK:"cmTC_d6401.dir\\Debug\\cmTC_d6401.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-a8nrth/Debug/cmTC_d6401.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-a8nrth/Debug/cmTC_d6401.lib" /MACHINE:X64  /machine:x64 cmTC_d6401.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_d6401.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nrth\\Debug\\cmTC_d6401.exe
-        FinalizeBuildStatus:
-          "cmTC_d6401.dir\\Debug\\cmTC_d6401.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_d6401.dir\\Debug\\cmTC_d6401.tlog\\cmTC_d6401.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-a8nrth\\cmTC_d6401.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-        
-        빌드했습니다.
-            경고 0개
-            오류 0개
-        
-        경과 시간: 00:00:00.36
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-p6uz7i"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-p6uz7i"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-p6uz7i'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8adc5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 11:53:30
-        
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6uz7i\\cmTC_8adc5.vcxproj" 프로젝트(기본 대상)입니다.
-        PrepareForBuild:
-          "cmTC_8adc5.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6uz7i\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_8adc5.dir\\Debug\\cmTC_8adc5.tlog\\" 디렉터리를 만들고 있습니다.
-        InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_8adc5.dir\\Debug\\cmTC_8adc5.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8adc5.dir\\Debug\\\\" /Fd"cmTC_8adc5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
-          CMakeCXXCompilerABI.cpp
-          Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8adc5.dir\\Debug\\\\" /Fd"cmTC_8adc5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6uz7i\\Debug\\cmTC_8adc5.exe" /INCREMENTAL /ILK:"cmTC_8adc5.dir\\Debug\\cmTC_8adc5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-p6uz7i/Debug/cmTC_8adc5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-p6uz7i/Debug/cmTC_8adc5.lib" /MACHINE:X64  /machine:x64 cmTC_8adc5.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_8adc5.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6uz7i\\Debug\\cmTC_8adc5.exe
-        FinalizeBuildStatus:
-          "cmTC_8adc5.dir\\Debug\\cmTC_8adc5.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_8adc5.dir\\Debug\\cmTC_8adc5.tlog\\cmTC_8adc5.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6uz7i\\cmTC_8adc5.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-        
-        빌드했습니다.
-            경고 0개
-            오류 0개
-        
-        경과 시간: 00:00:00.36
-        
-      exitCode: 0
-...
-
----
-events:
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      The system is: Windows - 10.0.19045 - AMD64
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 11:54:17
-      
-      1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트(기본 대상)입니다.
-      PrepareForBuild:
-        "Debug\\" 디렉터리를 만들고 있습니다.
-        "Debug\\CompilerIdC.tlog\\" 디렉터리를 만들고 있습니다.
-      InitializeBuildStatus:
-        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdC.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
-        CMakeCCompilerId.c
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdC\\CompilerIdC.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-      
-      빌드했습니다.
-          경고 0개
-          오류 0개
-      
-      경과 시간: 00:00:00.46
-      
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
-      
-      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
-      
-      The C compiler identification is MSVC, found in:
-        C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/3.28.1/CompilerIdC/CompilerIdC.exe
-      
-  -
-    kind: "message-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:5 (project)"
-    message: |
-      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler:  
-      Build flags: 
-      Id flags:  
-      
-      The output was:
-      0
-      MSBuild version 17.6.3+07e294721 for .NET Framework
-      빌드 시작: 2024-02-27 오전 11:54:17
-      
-      1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트(기본 대상)입니다.
-      PrepareForBuild:
-        "Debug\\" 디렉터리를 만들고 있습니다.
-        "Debug\\CompilerIdCXX.tlog\\" 디렉터리를 만들고 있습니다.
-      InitializeBuildStatus:
-        "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-      ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
-        CMakeCXXCompilerId.cpp
-      Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.exe
-      PostBuildEvent:
-        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
-        :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe
-      FinalizeBuildStatus:
-        "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate"에 연결(touching)하고 있습니다.
-      "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\3.28.1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-      
-      빌드했습니다.
-          경고 0개
-          오류 0개
-      
-      경과 시간: 00:00:00.34
-      
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
-      
-      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
-      
-      The CXX compiler identification is MSVC, found in:
-        C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/3.28.1/CompilerIdCXX/CompilerIdCXX.exe
-      
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting C compiler ABI info"
-    directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-q9314e"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-q9314e"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_C_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-q9314e'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_461f8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 11:54:18
-        
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q9314e\\cmTC_461f8.vcxproj" 프로젝트(기본 대상)입니다.
-        PrepareForBuild:
-          "cmTC_461f8.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q9314e\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_461f8.dir\\Debug\\cmTC_461f8.tlog\\" 디렉터리를 만들고 있습니다.
-        InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_461f8.dir\\Debug\\cmTC_461f8.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_461f8.dir\\Debug\\\\" /Fd"cmTC_461f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
-          CMakeCCompilerABI.c
-          Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_461f8.dir\\Debug\\\\" /Fd"cmTC_461f8.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q9314e\\Debug\\cmTC_461f8.exe" /INCREMENTAL /ILK:"cmTC_461f8.dir\\Debug\\cmTC_461f8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-q9314e/Debug/cmTC_461f8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-q9314e/Debug/cmTC_461f8.lib" /MACHINE:X64  /machine:x64 cmTC_461f8.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_461f8.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q9314e\\Debug\\cmTC_461f8.exe
-        FinalizeBuildStatus:
-          "cmTC_461f8.dir\\Debug\\cmTC_461f8.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_461f8.dir\\Debug\\cmTC_461f8.tlog\\cmTC_461f8.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-q9314e\\cmTC_461f8.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-        
-        빌드했습니다.
-            경고 0개
-            오류 0개
-        
-        경과 시간: 00:00:00.36
-        
-      exitCode: 0
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:5 (project)"
-    checks:
-      - "Detecting CXX compiler ABI info"
-    directories:
-      source: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-16m8vx"
-      binary: "C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-16m8vx"
-    cmakeVariables:
-      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-    buildResult:
-      variable: "CMAKE_CXX_ABI_COMPILED"
-      cached: true
-      stdout: |
-        Change Dir: 'C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-16m8vx'
-        
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b61f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.6.3+07e294721 for .NET Framework
-        빌드 시작: 2024-02-27 오전 11:54:18
-        
-        1 노드의 "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16m8vx\\cmTC_b61f1.vcxproj" 프로젝트(기본 대상)입니다.
-        PrepareForBuild:
-          "cmTC_b61f1.dir\\Debug\\" 디렉터리를 만들고 있습니다.
-          "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16m8vx\\Debug\\" 디렉터리를 만들고 있습니다.
-          "cmTC_b61f1.dir\\Debug\\cmTC_b61f1.tlog\\" 디렉터리를 만들고 있습니다.
-        InitializeBuildStatus:
-          "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_b61f1.dir\\Debug\\cmTC_b61f1.tlog\\unsuccessfulbuild"을(를) 만들고 있습니다.
-        ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b61f1.dir\\Debug\\\\" /Fd"cmTC_b61f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ 최적화 컴파일러 버전 19.36.32532(x64)
-          CMakeCXXCompilerABI.cpp
-          Copyright (c) Microsoft Corporation. All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b61f1.dir\\Debug\\\\" /Fd"cmTC_b61f1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-        Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16m8vx\\Debug\\cmTC_b61f1.exe" /INCREMENTAL /ILK:"cmTC_b61f1.dir\\Debug\\cmTC_b61f1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-16m8vx/Debug/cmTC_b61f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/@GitRepos/@vectolist/ModernOpenGL46/build/CMakeFiles/CMakeScratch/TryCompile-16m8vx/Debug/cmTC_b61f1.lib" /MACHINE:X64  /machine:x64 cmTC_b61f1.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_b61f1.vcxproj -> C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16m8vx\\Debug\\cmTC_b61f1.exe
-        FinalizeBuildStatus:
-          "cmTC_b61f1.dir\\Debug\\cmTC_b61f1.tlog\\unsuccessfulbuild" 파일을 삭제하고 있습니다.
-          "cmTC_b61f1.dir\\Debug\\cmTC_b61f1.tlog\\cmTC_b61f1.lastbuildstate"에 연결(touching)하고 있습니다.
-        "C:\\@GitRepos\\@vectolist\\ModernOpenGL46\\build\\CMakeFiles\\CMakeScratch\\TryCompile-16m8vx\\cmTC_b61f1.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
-        
-        빌드했습니다.
-            경고 0개
-            오류 0개
-        
-        경과 시간: 00:00:00.36
+        경과 시간: 00:00:00.38
         
       exitCode: 0
 ...

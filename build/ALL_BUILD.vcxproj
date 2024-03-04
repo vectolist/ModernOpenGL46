@@ -110,9 +110,21 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\@GitRepos\@vectolist\ModernOpenGL46\build\01-window-01-draw.vcxproj">
-      <Project>{748BFEE8-D743-342E-852D-022F3908B3F6}</Project>
-      <Name>01-window-01-draw</Name>
+    <ProjectReference Include="C:\@GitRepos\@vectolist\ModernOpenGL46\build\01-window-01-Application.vcxproj">
+      <Project>{6B906D84-A918-3A10-A62B-8DFA8876B314}</Project>
+      <Name>01-window-01-Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\@GitRepos\@vectolist\ModernOpenGL46\build\01-window-02-Triangle.vcxproj">
+      <Project>{78DE9EBF-907A-35A3-8572-8BA23CA1D470}</Project>
+      <Name>01-window-02-Triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\@GitRepos\@vectolist\ModernOpenGL46\build\01-window-03-Shader.vcxproj">
+      <Project>{730357BF-1A1A-3CCB-A0A8-B3BB989AEFA7}</Project>
+      <Name>01-window-03-Shader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\@GitRepos\@vectolist\ModernOpenGL46\build\external\Common\Common.vcxproj">
+      <Project>{CEA5A925-993A-30DB-8F25-D814374FF580}</Project>
+      <Name>Common</Name>
     </ProjectReference>
     <ProjectReference Include="C:\@GitRepos\@vectolist\ModernOpenGL46\build\external\GLExtension\GLExtension.vcxproj">
       <Project>{D0601718-BFF0-30F3-84FA-53064CF52799}</Project>
